@@ -1,0 +1,112 @@
+.h-color {
+    background: rgb(189, 117, 244);
+    background: linear-gradient(347deg, rgba(189, 117, 244, 1) 0%, rgba(87, 25, 153, 1) 100%);
+    color: white !important;
+}
+
+
+.h-color h1 {
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.d-body {
+    background: linear-gradient(347deg, rgba(189, 117, 244, 1) 0%, rgba(87, 25, 153, 1) 100%);
+}
+
+#img {
+    width: 200px;
+    height: 200px;
+}
+
+.body-logos img {
+    width: 93%;
+
+    border: 2px black solid;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.body-logos {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+object {
+    width: 100%;
+    height: 300px;
+
+    zoom: 100%;
+}
+
+.card-header {
+    background-color: #9501b5 !important;
+    color: white !important;
+    border-radius: 0%;
+
+}
+
+.card {
+    border: 2px black solid !important;
+    border-radius: 10px !important;
+    background: transparent !important;
+}
+
+.card-body {
+    background-color: rgba(255, 176, 209, 0.514) !important;
+}
+
+.c-img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    #img {
+        width: 200px;
+        height: 200px;
+
+        margin-top: 30px;
+    }
+
+    .h-color h1 {
+        margin-top: auto;
+        font-size: 25px;
+    }
+
+    .body-logos img {
+        width: 93%;
+
+    }
+
+    .c-img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    #img {
+        width: 150px;
+        height: 150px;
+
+        margin-top: 20px;
+    }
+
+    .h-color h1 {
+        margin-top: auto;
+        font-size: 25px;
+    }
+
+    .body-logos img {
+        width: 93%;
+    }
+
+
+    .c-img {
+        width: 100%;
+    }
+}
