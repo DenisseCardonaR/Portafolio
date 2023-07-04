@@ -6,8 +6,8 @@ import indexRoutes from './routes/index.routes'
 
 const app = express();
 
-app.set("views", path.join(__dirname, "views"));
-app.use(express.static(path.join(__dirname, "public")));
+app.set("views", path.join(__dirname, "/.netlify/functions/views"));
+app.use(express.static(path.join(__dirname, "/.netlify/functions/public")));
 
 const exphbs = create({
   extname: '.hbs',
