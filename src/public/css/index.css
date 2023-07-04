@@ -1,0 +1,137 @@
+html {
+    height: 100vh;
+    width: 99%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000 !important;
+    background: linear-gradient(#eb8bd3, #4a9dd1);
+}
+
+.divNav {
+    border: 0.125em solid #000000 !important;
+    border-radius: 0.9375em;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.cardPrincipal {
+    text-align: justify;
+    width: 100%;
+    font-size: 18px;
+}
+
+.cardPrincipal .card-header {
+    border-bottom: none;
+    background-color: rgb(233, 233, 233);
+}
+
+.cardPrincipal ul {
+    list-style-position: inside;
+}
+
+.contenedor {
+    background: rgba(255, 255, 255, 0.438);
+    border: 0.125em solid #000000;
+    border-radius: 0.9375em;
+    margin-top: 5px;
+    margin: 40px;
+}
+
+.contenedor .header {
+    margin: 5px;
+    color: #c20793 !important;
+}
+
+.contenedor .info {
+    color: #000000 !important;
+    margin: 10px !important;
+}
+
+.cta {
+    position: relative;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #c20793;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #c20793;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+.btnProyectos {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000000;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #000000;
+    border-radius: 10px !important;
+    box-shadow: inset 0 0 0 0 #000000;
+}
+
+.btnProyectos:hover {
+    box-shadow: inset 0 -100px 0 0 #e9a5f7;
+}
+
+.btnProyectos:active {
+    transform: scale(0.9);
+}
+
+.cardLogo {
+    height: 100%;
+}
